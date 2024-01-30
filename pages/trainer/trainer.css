@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.button, .level {
+  cursor: pointer;
+}
+
+.main-layout {
+  display: flex;
+  width: 1300px;
+  height: 700px;
+  font-family: "Lucida Console", monospace;
+}
+
+.kp-block {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 150px;
+  height: 100%;
+  border-right: 1px solid rgb(128, 128, 128);
+}
+
+.block-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 60px;
+}
+
+.header-name {
+  padding: 10px;
+  font-size: 10px;
+}
+
+.bolt {
+  position: absolute;
+  left: 45px;
+}
+
+.block-footer {
+  height: 60px;
+}
+
+.block {
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.labeled-channel-signal {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  right: 4px;
+  position: relative;
+}
+
+.labeled-channel-signal-text {
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.circle-signal {
+  border: 5px solid black;
+  border-radius: 45px;
+  width: 10px;
+  height: 10px;
+}
+
+.triple-output {
+  text-align: center;
+  background-color: black;
+  color: greenyellow;
+  font-size: 30px;
+  padding: 2px;
+  border: 2px outset;
+}
+
+/* 11111111111111111111111111111111111111111 */
+
+.block-kp1-3 {
+  margin-bottom: 80px;
+}
+
+.block-kp1-2 {
+  height: 350px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 22222222222222222222222222222222222222222 */
+
+.block-kp2-2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kp2-2-group-output-layout {
+  margin-top: 30px;
+}
+
+.block-kp2-3 {
+  margin-top: 30px;
+}
+
+.block-kp2-4 {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.kp2-3-controls {
+  display: flex;
+}
+
+.kp2-4-button-start-info {
+  margin-bottom: 20px;
+}
+
+.kp2-4-level-control {
+  margin-bottom: 5px;
+}
+
+.kp2-4-button-start-info, .kp2-4-level-control {
+  display: block;
+}
+
+/* 33333333333333333333333333333333333333333 */
+
+.block-kp3-2, .block-kp3-3 {
+  margin-top: 50px;
+}
+
+.kp3-3-channel-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.kp3-3-channel-button-3 {
+  margin-bottom: 100px;
+}
+
+/* 66666666666666666666666666666666666666666 */
+
+.block-kp6-1-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-kp6-1-inner-1, .block-kp6-1-inner-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-kp6-1-inner-2 {
+  margin-left: 10px;
+}
+
+.block-kp6-2 {
+  margin-top: 40px;
+}
+
+.block-kp6-3 {
+  margin-top: 40px;
+}
+
+.kp6-3-s-level {
+  margin-top: 30px;
+}
+
+.kp6-3-r-level {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
